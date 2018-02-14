@@ -1,8 +1,9 @@
 ---
 
-- name: tap homebrew/dupes
-  homebrew_tap: tap=homebrew/dupes state=present
-
+# Homebrew dupes was deprecated and is no longer in use
+#- name: tap homebrew/dupes
+#  homebrew_tap: tap=homebrew/dupes state=present
+#
 - name: install bash4
   homebrew: name=bash state=latest
 
